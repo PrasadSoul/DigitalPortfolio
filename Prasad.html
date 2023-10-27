@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad - Digital Portfolio</title>
+</head>
+<body>
+    <style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #55a1ff;
+    color: #000000;
+    line-height: 1.6;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #c47fec;
+    color: #ffffff;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+}
+
+.sidebar-nav ul {
+    list-style-type: none;
+}
+
+.sidebar-nav li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.sidebar-nav a:hover {
+    background-color: #3498db;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+    </style>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="Prasad.jpg" alt="Prasad" width="120px" height="160px">
+            <h1>Prasad S</h1>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#occupation">Occupation</a></li>
+                <li><a href="#career-objective">Career Objective</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Prasad Resume.pdf" download="Prasad Resume.pdf">Download Resume</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Prasad here,I am a Computer Science Student. I consider myself as an responsible and orderly person. I am looking forward for my first work experience.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <p>I had my HSC and SSLC completed in Subbiah Matric Higher Secondary School in Tirupur.Currently doing my UG programme in CS at KPRCAS located in Coimbatore.</p>
+            </div>
+        </section>
+
+        <section id="occupation">
+            <div class="container">
+                <h2>Occupation</h2>
+                <p>Currently a college student performing in order to get placed in an IT based company.</p>
+            </div>
+        </section>
+
+        <section id="career-objectives">
+            <div class="container">
+                <h2>Career Objective</h2>
+                <p>Looking to work as an professional in a dynamic company. Computer Science graduate looking forward to implementing new technologies. I can use my skills to the advantage of the company while having the scope to develop my own skills.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Contact Information:</p>
+                <p>Email: prasadS@gmail.com</p>
+                <p>Phone: +91 (123) 456-5689</p>
+                <p>Mobile: 9739482393</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
